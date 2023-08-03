@@ -1,0 +1,95 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.img-profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 40px;
+}
+
+.name-profile {
+    color: #1b1c1e;
+    font-size: 18;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+}
+
+.bio-profile {
+    color: #1b1c1e;
+    font-size: 12;
+    margin-top: -15px;
+}
+
+.container-magazine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15px;
+    color: #414141;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-magazine {
+    width: 220px;
+    height: 480px; /* Atur tinggi tetap */
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    font-size: 14px;
+    position: relative; /* Menambahkan posisi relatif pada kotak majalah */
+    display: flex;
+    flex-direction: column;
+}
+
+.row-magazine {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px; /* Atur jarak bagian bawah */
+}
+
+.cover {
+    width: 220px;
+    height: auto;
+    margin-bottom: -5px;
+}
+
+.edisi {
+    align-items: center;
+    font-size: 18px;
+    margin-top: 15px; /* Ubah jarak antara edisi dan atas kotak */
+}
+
+.sinopsis {
+    font-size: 14px;
+    color: #1b1c1e;
+    margin-top: -10px /* Ubah jarak antara sinopsis dan edisi */
+}
+
+.download-link {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: #1e0063;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.download-link:hover {
+    background-color: #e9c217;
+}
+
+.footer {
+    background-color: #cfcfcf;
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+}
